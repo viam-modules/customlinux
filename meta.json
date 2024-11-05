@@ -1,13 +1,13 @@
 {
   "$schema": "https://dl.viam.dev/module.schema.json",
-  "module_id": "viam:MODULE",
+  "module_id": "viam:customlinux",
   "visibility": "public",
-  "url": "https://github.com/viam-modules/MODULE",
-  "description": "Go module for MODULE MODEL COMPONENT, compatible with Viam",
+  "url": "https://github.com/viam-modules/customlinux",
+  "description": "Go module for customlinux customlinux board, compatible with Viam",
   "models": [
     {
-      "api": "rdk:component:COMPONENT",
-      "model": "viam:MODULE:MODEL"
+      "api": "rdk:component:board",
+      "model": "viam:customlinux:customlinux"
     }
   ],
   "build": {
@@ -15,5 +15,5 @@
     "path": "bin/module.tar.gz",
     "arch" : ["linux/arm64", "linux/amd64", "darwin/arm64"]
   },
-  "entrypoint": "bin/MODULE"
+  "entrypoint": "bin/customlinux"
 }
