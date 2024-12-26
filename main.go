@@ -4,7 +4,7 @@ package main
 import (
 	"context"
 
-	"customlinux/customlinux"
+	"github.com/viam-modules/customlinux/customlinux"
 
 	"go.viam.com/rdk/components/board"
 	"go.viam.com/rdk/logging"

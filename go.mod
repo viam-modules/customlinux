@@ -1,4 +1,4 @@
-module customlinux
+module github.com/viam-modules/customlinux
 
 go 1.23.0
 
