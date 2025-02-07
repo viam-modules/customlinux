@@ -7,7 +7,9 @@
   "models": [
     {
       "api": "rdk:component:board",
-      "model": "viam:customlinux:customlinux"
+      "model": "viam:customlinux:customlinux",
+      "markdown_link": "README.md#configure-your-customlinux-board",
+      "short_description": "board model for any board that runs a linux OS and is not implemented by viam-modules"
     }
   ],
   "build": {

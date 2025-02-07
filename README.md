@@ -314,13 +314,14 @@ Try looking at your board's data sheet and cross-referencing with the output fro
 }
 ```
 
-## Configure your customlinux board
-
+## Setup your customlinux board
 > [!NOTE]
 > Before configuring your board, you must [create a machine](https://docs.viam.com/cloud/machines/#add-a-new-machine).
 
 Navigate to the [**CONFIGURE** tab](https://docs.viam.com/configure/) of your [machine](https://docs.viam.com/fleet/machines/) in the [Viam app](https://app.viam.com/).
 [Add board / customlinux:customlinux to your machine](https://docs.viam.com/configure/#components).
+
+## Configure your customlinux board
 
 On the new component panel, copy and paste the following attribute template into your board's attributes field:
 
@@ -336,9 +337,9 @@ The following attributes are available for `viam:customlinux:customlinux` boards
 
 | Attribute | Type | Required? | Description |
 | --------- | ---- | --------- | ----------  |
-| `board_defs_file_path` | string | **Required** | The path to the pin mappings. See [Create a board definitions file](#create-a-board-definitions-file). |
+| `board_defs_file_path` | string | **Required** | The path to the pin mappings. See [Create a board definitions file](https://github.com/viam-modules/customlinux?tab=readme-ov-file#create-a-board-definitions-file). |
 
-## Example configuration
+### Example configuration
 
 ### `viam:customlinux:customlinux`
 ```json
@@ -354,7 +355,7 @@ The following attributes are available for `viam:customlinux:customlinux` boards
   }
 ```
 
-### Next Steps
+## Next Steps
 - To test your board, expand the **TEST** section of its configuration pane or go to the [**CONTROL** tab](https://docs.viam.com/fleet/control/).
 - To write code against your board, use one of the [available SDKs](https://docs.viam.com/sdks/).
 - To view examples using a board component, explore [these tutorials](https://docs.viam.com/tutorials/).
