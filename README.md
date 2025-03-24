@@ -1,6 +1,7 @@
 # [`customlinux` module](https://github.com/viam-modules/customlinux)
 
-This [customlinux module](https://app.viam.com/module/viam/customlinux) implements a customlinux board, which is any board that run a Linux operating system and is not implemented by `viam-modules` repos, using the [`rdk:component:board` API](https://docs.viam.com/appendix/apis/components/board/).
+This [customlinux module](https://app.viam.com/module/viam/customlinux) implements a `customlinux` board, which is any board that run a Linux operating system and is not implemented by `viam-modules` repos, using the [`rdk:component:board` API](https://docs.viam.com/appendix/apis/components/board/).
+This means you can use any board running Linux, for example Odroid C4, Pumpkin, or, Banana Pi, with the `customlinux` board model.
 
 To integrate a custom Linux board into your machine:
 
