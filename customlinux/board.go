@@ -52,7 +52,7 @@ func pinDefsFromFile(conf resource.Config, logger logging.Logger) (*genericlinux
 		return nil, err
 	}
 
-	gpioMappings, err := genericlinux.GetGPIOBoardMappingFromPinDefs(pinDefs)
+	gpioMappings, err := genericlinux.GetGPIOBoardMappingFromPinDefs(pinDefs, logger)
 	if err != nil {
 		return nil, err
 	}

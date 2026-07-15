@@ -46,11 +46,11 @@ func TestConfigParse(t *testing.T) {
 func TestConfigValidate(t *testing.T) {
 	validConfig := Config{}
 
-	_, err := validConfig.Validate("path")
+	_, _, err := validConfig.Validate("path")
 	test.That(t, err, test.ShouldNotBeNil)
 	test.That(t, err.Error(), test.ShouldContainSubstring, "no such file or directory")
 
 	validConfig.BoardDefsFilePath = "./"
-	_, err = validConfig.Validate("path")
+	_, _, err = validConfig.Validate("path")
 	test.That(t, err, test.ShouldBeNil)
 }

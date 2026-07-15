@@ -13,11 +13,11 @@ type Config struct {
 }
 
 // Validate ensures all parts of the config are valid.
-func (conf *Config) Validate(path string) ([]string, error) {
+func (conf *Config) Validate(path string) ([]string, []string, error) {
 	if _, err := os.Stat(conf.BoardDefsFilePath); err != nil {
-		return nil, err
+		return nil, nil, err
 	}
 	// Should we read in and validate the board defs in here?
 
-	return nil, nil
+	return nil, nil, nil
 }
