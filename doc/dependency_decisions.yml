@@ -223,3 +223,25 @@
     :why:
     :versions: []
     :when: 2024-12-03 20:21:04.946556000 Z
+- - :permit
+  - Mozilla Public License 2.0
+  - :who:
+    :why:
+    :versions: []
+    :when: 2026-08-20 14:52:02.777784000 Z
+- - :approve
+  - codeberg.org/go-fonts/liberation
+  - &1
+    :who:
+    :why:
+    :versions: []
+    :when: 2026-08-20 14:52:03.082203401 Z
+- - :approve
+  - codeberg.org/go-latex/latex
+  - *1
+- - :approve
+  - github.com/hashicorp/go-getter
+  - *1
+- - :approve
+  - github.com/hashicorp/go-version
+  - *1
