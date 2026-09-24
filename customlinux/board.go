@@ -11,7 +11,6 @@ import (
 	"path/filepath"
 
 	"go.uber.org/multierr"
-
 	"go.viam.com/rdk/components/board"
 	"go.viam.com/rdk/components/board/genericlinux"
 	"go.viam.com/rdk/logging"

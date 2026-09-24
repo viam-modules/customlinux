@@ -5,7 +5,6 @@ import (
 	"context"
 
 	"github.com/viam-modules/customlinux/customlinux"
-
 	"go.viam.com/rdk/components/board"
 	"go.viam.com/rdk/logging"
 	"go.viam.com/rdk/module"
