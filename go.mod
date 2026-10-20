@@ -9,9 +9,9 @@ require (
 	github.com/fullstorydev/grpcurl v1.8.6
 	github.com/rhysd/actionlint v1.7.8
 	go.uber.org/multierr v1.11.0
-	go.viam.com/rdk v1.10.0
+	go.viam.com/rdk v1.11.0
 	go.viam.com/test v1.2.5
-	go.viam.com/utils v0.13.0
+	go.viam.com/utils v0.13.2
 	gotest.tools/gotestsum v1.12.2
 )
 
@@ -209,7 +209,7 @@ require (
 	go.opentelemetry.io/proto/otlp v1.11.0 // indirect
 	go.uber.org/goleak v1.3.0 // indirect
 	go.uber.org/zap v1.28.0 // indirect
-	go.viam.com/api v0.1.588 // indirect
+	go.viam.com/api v0.1.590 // indirect
 	go.yaml.in/yaml/v4 v4.0.0-rc.2 // indirect
 	go4.org/unsafe/assume-no-moving-gc v0.0.0-20230525183740-e7c30c78aeb2 // indirect
 	golang.org/x/crypto v0.57.0 // indirect
